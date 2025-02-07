@@ -141,7 +141,7 @@ router.post('/postProjects', async (req, res) => {
             image: req.body.image,
             headlines: req.body.headlines,
             body: req.body.body,
-            datePublished: req.body.datePublished,
+            author: req.body.author,
             projectLink: req.body.projectLink
         });
 
